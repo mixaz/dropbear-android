@@ -28,7 +28,7 @@ cd dropbear-$VERSION
 echo "Generating required files..."
 
 HOST=arm-linux-androideabi
-COMPILER=${TOOLCHAIN}/bin/arm-linux-androideabi-gcc
+COMPILER=${TOOLCHAIN}/bin/armv7a-linux-androideabi${API}-clang
 STRIP=${TOOLCHAIN}/bin/arm-linux-androideabi-strip
 SYSROOT=${TOOLCHAIN}/sysroot
 
