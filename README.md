@@ -1,3 +1,9 @@
+Difference with upstream repo: added support for NDK-r20
+See build-ndk_r20-api28.sh sample
+========================================================
+
+Upstream README:
+
 Android Dropbear
 =========
 
@@ -22,6 +28,7 @@ See the android developer site for more info: https://developer.android.com/ndk/
 3) Export your toolchain's location:
 ```
 export TOOLCHAIN=/path/to/standalone/toolchain
+export API=<api level>
 ```
 
 4) Run the build script:
